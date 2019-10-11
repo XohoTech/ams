@@ -9,6 +9,8 @@ Hyrax.config do |config|
   config.register_curation_concern :essence_track
   # Injected via `rails g hyrax:work Contribution`
   config.register_curation_concern :contribution
+  # Injected via `rails g hyrax:work GenericWork`
+  config.register_curation_concern :generic_work
   
   # Register roles that are expected by your implementation.
   # @see Hyrax::RoleRegistry for additional details.
